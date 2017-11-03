@@ -1,0 +1,39 @@
+﻿  ProcessHollowing.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: typedef : пропускается слева от "", когда ни одна переменная не объявлена
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: typedef : пропускается слева от "", когда ни одна переменная не объявлена
+c:\processhollowing\src\processhollowing\kuznyechikph.cpp(127): warning C4018: <: несоответствие типов со знаком и без знака
+c:\processhollowing\src\processhollowing\kuznyechikph.cpp(178): warning C4244: return: преобразование "WORD" в "BYTE", возможна потеря данных
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(19): warning C4005: RT_MANIFEST: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(253): note: см. предыдущее определение "RT_MANIFEST"
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(20): warning C4005: CREATEPROCESS_MANIFEST_RESOURCE_ID: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(254): note: см. предыдущее определение "CREATEPROCESS_MANIFEST_RESOURCE_ID"
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(21): warning C4005: ISOLATIONAWARE_MANIFEST_RESOURCE_ID: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(255): note: см. предыдущее определение "ISOLATIONAWARE_MANIFEST_RESOURCE_ID"
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(22): warning C4005: ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(256): note: см. предыдущее определение "ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID"
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(23): warning C4005: MINIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(257): note: см. предыдущее определение "MINIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+c:\program files (x86)\windows kits\8.1\include\um\winuser.rh(24): warning C4005: MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(258): note: см. предыдущее определение "MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+c:\program files (x86)\windows kits\8.1\include\um\winres.h(35): warning C4005: LB_ADDSTRING: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(11119): note: см. предыдущее определение "LB_ADDSTRING"
+c:\program files (x86)\windows kits\8.1\include\um\winres.h(36): warning C4005: CB_ADDSTRING: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(11267): note: см. предыдущее определение "CB_ADDSTRING"
+c:\processhollowing\src\processhollowing\processhollowing.cpp(115): warning C4477: "printf": в строке форматирования "%p" требуется аргумент типа "void *", но вариативный аргумент "1" имеет тип "DWORD"
+c:\processhollowing\src\processhollowing\processhollowing.cpp(121): warning C4477: "printf": в строке форматирования "%p" требуется аргумент типа "void *", но вариативный аргумент "1" имеет тип "DWORD"
+c:\processhollowing\src\processhollowing\processhollowing.cpp(156): warning C4477: "printf": в строке форматирования "%p" требуется аргумент типа "void *", но вариативный аргумент "1" имеет тип "DWORD"
+c:\processhollowing\src\processhollowing\modesph.hpp(37): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\processhollowing\src\processhollowing\modesph.hpp(30): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\processhollowing\src\processhollowing\modesph.hpp(47): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void CFB_Mode<Kuznyechik>::decrypt_with_iv(const ByteBlock &,ByteBlock &,const ByteBlock &) const"
+  c:\processhollowing\src\processhollowing\modesph.hpp(7): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\processhollowing\src\processhollowing\processhollowing.cpp(59): note: см. ссылку на создание экземпляров функции шаблон при компиляции "CFB_Mode<Kuznyechik>::CFB_Mode(const CipherType &,const ByteBlock &)"
+          with
+          [
+              CipherType=Kuznyechik
+          ]
+  c:\processhollowing\src\processhollowing\processhollowing.cpp(59): note: см. ссылку на создание экземпляров класса шаблон при компиляции "CFB_Mode<Kuznyechik>"
+  c:\processhollowing\src\processhollowing\kuznyechikph.cpp(57): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::initializer_list<unsigned short>"
+  c:\processhollowing\src\processhollowing\kuznyechikph.cpp(51): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::initializer_list<unsigned char>"
+  LINK : не найден или не выполнена сборка C:\ProcessHollowing\src\Debug\ProcessHollowing.exe при последней инкрементной компоновке; выполняется полная компоновка
+KuznyechikPH.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  ProcessHollowing.vcxproj -> C:\ProcessHollowing\src\Debug\ProcessHollowing.exe

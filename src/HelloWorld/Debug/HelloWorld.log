@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  HelloWorld.cpp
+HelloWorld.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  HelloWorld.vcxproj -> C:\ProcessHollowing\src\Debug\HelloWorld.exe
